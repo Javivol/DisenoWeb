@@ -12,10 +12,10 @@ En esta versión vamos tenemos el primer boceto e ideas de la página.
 [Boceto Movil](https://wireframe.cc/pro/pp/1cb1fafa7686342)
 
 En el boceto hay que destacar una cosa:
-- El carrito de la compra no apareceria hasta que el usuario se registrara o iniciara sesión
+- El carrito de la compra no apareceria hasta que el usuario se registrara o iniciara sesión (en la versión de movil, para verlo tendría que darle desde el submenu de su cuenta).
 
 ## Logo
-![logo](/img/logo.png)
+![logo](./img/logo.png)
 
 ## Colores
 

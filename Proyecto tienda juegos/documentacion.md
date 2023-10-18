@@ -7,9 +7,13 @@ La página tratara de abarcar de forma minimalista, la venta de juegos nuevos y 
 # v 0.1
 En esta versión vamos tenemos el primer boceto e ideas de la página.
 ## Wireframe
-[Boceto](https://wireframe.cc/pro/pp/3c9318c01686341)
+[Boceto](/Proyecto%20tienda%20juegos/img/boceto.png)
 
-[Boceto Movil](https://wireframe.cc/pro/pp/1cb1fafa7686342)
+[Boceto Movil](/Proyecto%20tienda%20juegos/img/boceto_movil.png)
+
+[Login PC](/Proyecto%20tienda%20juegos/img/login_pc.png)
+
+[Login Movil](/Proyecto%20tienda%20juegos/img/login_movil.png)
 
 En el boceto hay que destacar una cosa:
 - El carrito de la compra no apareceria hasta que el usuario se registrara o iniciara sesión (en la versión de movil, para verlo tendría que darle desde el submenu de su cuenta).

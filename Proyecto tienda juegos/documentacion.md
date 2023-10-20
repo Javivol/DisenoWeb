@@ -15,6 +15,10 @@ En esta versión vamos tenemos el primer boceto e ideas de la página.
 
 [Login Movil](/Proyecto%20tienda%20juegos/img/login_movil.png)
 
+[Producto PC](/img/producto_pc.png)
+
+[Producto Movil](/img/producto_movil.png)
+
 En el boceto hay que destacar una cosa:
 - El carrito de la compra no apareceria hasta que el usuario se registrara o iniciara sesión (en la versión de movil, para verlo tendría que darle desde el submenu de su cuenta).
 

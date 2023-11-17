@@ -1,0 +1,10 @@
+h1 {
+  text-align: center;
+}
+.contenedor{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    
+}
+

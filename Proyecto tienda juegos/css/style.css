@@ -1,0 +1,227 @@
+.header{
+    display: flex;
+   
+}
+.menu{
+    padding: 1em;
+    
+}
+/*
+Estilo del buscador INICIO
+*/
+.container {
+    position: relative;
+    background: linear-gradient(135deg, rgb(223, 132, 67) 0%, rgb(223, 132, 67) 100%);
+    border-radius: 1000px;
+    padding: 10px;
+    display: grid;
+    place-content: center;
+    z-index: 0;
+    margin: 0 10px;
+  }
+  
+  .search-container {
+    position: relative;
+    width: 100%;
+    border-radius: 50px;
+    background: linear-gradient(135deg, rgb(223, 132, 67) 0%, rgb(223, 132, 67) 100%);
+    padding: 5px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-container::after, .search-container::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+    position: absolute;
+  }
+  
+  .search-container::before {
+    top: -1px;
+    left: -1px;
+    background: linear-gradient(0deg, rgb(223, 132, 67) 0%, rgb(223, 132, 67) 100%);
+    z-index: -1;
+  }
+  
+  .search-container::after {
+    bottom: -1px;
+    right: -1px;
+    background: linear-gradient(0deg, rgb(223, 132, 67) 0%, rgb(223, 132, 67) 100%);
+    box-shadow: rgba(223, 132, 67, 0.7019607843) 3px 3px 5px 0px, rgba(223, 132, 67, 0.7019607843) 5px 5px 20px 0px;
+    z-index: -2;
+  }
+  
+  .input {
+    padding: 10px;
+    width: 100%;
+    background: linear-gradient(135deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 100%);
+    border: none;
+    color: #DF8443;
+    font-size: 20px;
+    border-radius: 50px;
+  }
+  
+  .input:focus {
+    outline: none;
+    background: linear-gradient(135deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 100%);
+  }
+  
+  .search__icon {
+    width: 50px;
+    aspect-ratio: 1px;
+    padding-left: 12px;
+    margin-right: 10px;
+  }
+  
+  .search__icon path {
+    fill: white;
+  }
+/*
+Estilo del buscador FIN
+*/
+/*
+Div del menu desplegable INICIO
+*/
+.menuDesplegable{
+    padding: 2em;
+    width: 5px;
+}
+/*
+Div del menu desplegable FIN
+*/
+/*
+Icono del menu desplegable INICIO
+*/
+.checkboxtoggler {
+    width: 3em;
+    display: flex;
+    flex-direction: column;
+    gap: 0.7em;
+    cursor: pointer;
+  }
+  
+  .line-1 {
+    background: #DF8443;
+    height: 0.3em;
+    border-radius: 10em;
+    transition-duration: 500ms;
+  }
+  
+  .line-2 {
+    background: #DF8443;
+    height: 0.3em;
+    border-radius: 10em;
+    transition-duration: 500ms;
+  }
+  
+  .line-3 {
+    background: #DF8443;
+    height: 0.3em;
+    border-radius: 10em;
+    transition-duration: 500ms;
+  }
+  
+  #toggleChecker {
+    height: 3em;
+    width: 100%;
+    display: none;
+  }
+  
+  #toggleChecker:checked + #togglerLable .checkboxtoggler .line-1 {
+    -webkit-transform: rotate(45deg) translateY(0.7em) translateX(0.7em);
+    -ms-transform: rotate(45deg) translateY(0.7em) translateX(0.7em);
+    transform: rotate(45deg) translateY(0.7em) translateX(0.7em);
+  }
+  
+  #toggleChecker:checked + #togglerLable .checkboxtoggler .line-2 {
+    -webkit-transform: rotate(-45deg) translateY(0em) translateX(0.1em);
+    -ms-transform: rotate(-45deg) translateY(0em) translateX(0.1em);
+    transform: rotate(-45deg) translateY(0em) translateX(0.1em);
+  }
+  
+  #toggleChecker:checked + #togglerLable .checkboxtoggler .line-3 {
+    transform: scaleX(0);
+    transform-origin: left;
+  }
+/*
+Icono del menu desplegable FIN
+*/
+/*
+Div del login INICIO
+*/
+.login{
+    padding: 2em;
+}
+/*
+Icono del login INICIO
+*/
+.Btn {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 45px;
+    height: 45px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition-duration: .3s;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.199);
+    background-color: #DF8443;
+  }
+  
+  /* plus sign */
+  .sign {
+    width: 100%;
+    transition-duration: .3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .sign svg {
+    width: 17px;
+  }
+  
+  .sign svg path {
+    fill: white;
+  }
+  /* text */
+  .text {
+    position: absolute;
+    right: 0%;
+    width: 0%;
+    opacity: 0;
+    color: white;
+    font-size: 1.2em;
+    font-weight: 600;
+    transition-duration: .3s;
+  }
+  /* hover effect on button width */
+  .Btn:hover {
+    width: 125px;
+    border-radius: 40px;
+    transition-duration: .3s;
+  }
+  
+  .Btn:hover .sign {
+    width: 35%;
+    transition-duration: .3s;
+  }
+  /* hover effect button's text */
+  .Btn:hover .text {
+    opacity: 1;
+    width: 70%;
+    transition-duration: .3s;
+    padding-right: 10px;
+  }
+  /* button click effect*/
+  .Btn:active {
+    transform: translate(2px ,2px);
+  }
+/*
+Icono del login FIN
+*/

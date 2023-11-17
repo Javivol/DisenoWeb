@@ -1,0 +1,31 @@
+.flex_item{
+    width: 10%;
+}
+
+.libro{
+    color: green;
+}
+
+.flex_contenedor > element{
+    align-items: center;
+}
+
+h1,p{
+    font-size: 20px;
+}
+
+h1,.flex_contenedor > .flex_item{
+    text-transform: uppercase;
+}
+
+.flex_item > p{
+    color: blue;
+}
+
+.flex_contenedor p{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.fa-file-alt ~ p,.fa-globe ~ p{
+    color: purple;
+}

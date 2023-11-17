@@ -1,0 +1,43 @@
+div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+img{
+    margin-top: 4em;
+}
+
+
+
+span.info{
+    color: blue;
+}
+
+.direccionEjemplo{
+    font-size: 17px;
+    text-align: left;
+}
+
+.opcion1, .opcion2{
+    width: 20em;
+    border: 1px solid black;
+    margin-bottom: 1em;
+}
+
+#correoEjemplo{
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+#boton{
+    width: 100%;
+    background-color: blue;
+    color: white;
+}
+
+.letraPeq{
+    font-size: small;
+}

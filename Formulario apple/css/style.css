@@ -1,0 +1,30 @@
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3em;
+}
+.titulo{
+    font-size: 25px;
+}
+div.head > p{
+    color: grey;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.introducir{
+    height: 3em;
+    width: 60%;
+}
+.parrafo{
+    width: 25em;
+}
+
+.azul{
+    color: blue;
+}
